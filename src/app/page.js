@@ -7,9 +7,11 @@ export default function Home() {
   return (
     <main className="min-h-screen flex flex-col">
       <div className="flex-grow">
-        <ProfileSection />
-        <SocialLinks />
-        <ContentButtons />
+        <div className="flex flex-col gap-8">
+          <ProfileSection />
+          <SocialLinks />
+          <ContentButtons />
+        </div>
       </div>
       <Footer />
     </main>
