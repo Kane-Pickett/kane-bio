@@ -10,7 +10,7 @@ const Buttons = [
     subtitle: "Software dev portfolio",
     icon1: LuCodeXml,
     icon2: LuLink,
-    href: ""
+    href: "https://madebykane.dev"
   },
   {
     key: 2,
@@ -18,7 +18,7 @@ const Buttons = [
     subtitle: "Unleash your inner ninja and level up",
     icon1: GiSharpShuriken,
     icon2: LuLink,
-    href: ""
+    href: "https://www.getninjafy.com/"
   },
   {
     key: 3,
@@ -26,7 +26,7 @@ const Buttons = [
     subtitle: "Content creation portfolio",
     icon1: MdMovieEdit,
     icon2: LuLink,
-    href: ""
+    href: "https://flowberri.com"
   },
   {
     key: 4,
@@ -34,7 +34,7 @@ const Buttons = [
     subtitle: "Free 15min video call for projects",
     icon1: BsPersonVideo,
     icon2: LuLink,
-    href: ""
+    href: "https://calendly.com/kanepickett/15min"
   },
   {
     key: 5,
@@ -42,7 +42,7 @@ const Buttons = [
     subtitle: "After effects templates and assets",
     icon1: LuShoppingBag,
     icon2: LuLink,
-    href: ""
+    href: "../shop"
   }
 ];
 
