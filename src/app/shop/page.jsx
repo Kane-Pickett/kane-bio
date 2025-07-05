@@ -66,31 +66,34 @@ export default function Shop() {
         </div>
 
         {/* store products */}
-        <div className="flex flex-col mx-auto gap-8 max-w-xl w-full px-4 mx-auto mb-12">
+        <div className="flex grid grid-cols-1 lg:grid-cols-2 mx-auto gap-8 max-w-xl lg:max-w-5xl w-full px-4 mx-auto mb-12">
           {Products.map(
             ({ key, image, productName, description, price, href }) => (
-              <div key={key} className="border-1 border-zinc-700 rounded-xl">
-                {/* <Image /> */}
-                <div className="relative">
+              <div
+                key={key}
+                className="p-[1px] bg-gradient-to-br from-white/20 via-white/10 to-transparent rounded-xl group duration-400 hover:scale-104 hover:from-white/30 hover:via-white/10 hover:to-transparent"
+              >
+                {/* border-1 border-zinc-700 rounded-xl */}
+                <div className="pb-4 bg-gradient-to-br from-black/75 via-black/60 to-black/40 backdrop-blur-lg rounded-xl">
                   <img
                     src={image}
                     className="w-full h-32 object-cover rounded-xl"
                   />
-                </div>
 
-                {/* text */}
-                <div className="flex flex-col gap-2 px-6 my-4">
-                  <div className="flex flex-row justify-between">
-                    <h2 className="font-medium text-base">{productName}</h2>
-                    <p className="font-bold">{price}</p>
+                  {/* text */}
+                  <div className="flex flex-col gap-2 px-6 my-4">
+                    <div className="flex flex-row justify-between">
+                      <h2 className="font-medium text-base">{productName}</h2>
+                      <p className="font-bold">{price}</p>
+                    </div>
+                    <p className="text-zinc-500 text-sm">{description}</p>
                   </div>
-                  <p className="text-zinc-500 text-sm">{description}</p>
-                </div>
 
-                {/* button */}
-                <div className="flex flex-row gap-4 items-center text-center justify-center p-2 mx-4 mb-4 bg-zinc-900 rounded-lg">
-                  <p className="font-base text-sm">View Details</p>
-                  <LuLink className="w-4 h-auto text-zinc-700 group-hover:text-zinc-400 duration-400" />
+                  {/* button */}
+                  <div className="flex flex-row gap-4 items-center text-center justify-center p-2 mx-4 mb-4 bg-zinc-900 rounded-lg">
+                    <p className="font-base text-sm">View Details</p>
+                    <LuLink className="w-4 h-auto text-zinc-700 group-hover:text-zinc-400 duration-400" />
+                  </div>
                 </div>
               </div>
             )
