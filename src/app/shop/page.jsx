@@ -55,7 +55,7 @@ export default function Shop() {
       <section className="flex-grow flex-col items-center justify-center">
         {/* title bar */}
 
-        <div className="sticky top-0 z-10 flex grid grid-cols-3 py-8 mb-8 border-b border-zinc-600 items-center text-center bg-black rounded-lg">
+        <div className="sticky top-0 z-10 flex grid grid-cols-3 py-8 mb-12 border-b border-zinc-600 items-center text-center bg-black rounded-lg">
           <div />
           <h1 className="text-3xl text-white">Shop</h1>
           <div className="flex justify-end pr-8">
@@ -66,12 +66,13 @@ export default function Shop() {
         </div>
 
         {/* store products */}
-        <div className="flex grid grid-cols-1 lg:grid-cols-2 mx-auto gap-8 max-w-xl lg:max-w-5xl w-full px-4 mx-auto mb-12">
+        <div className="flex grid grid-cols-1 lg:grid-cols-2 mx-auto gap-12 max-w-xl lg:max-w-5xl w-full px-4 mx-auto mb-12">
           {Products.map(
             ({ key, image, productName, description, price, href }) => (
               <div
                 key={key}
-                className="p-[1px] bg-gradient-to-br from-white/20 via-white/10 to-transparent rounded-xl group duration-400 hover:scale-104 hover:from-white/30 hover:via-white/10 hover:to-transparent"
+                className="p-[1px] bg-gradient-to-br from-white/20 via-white/2 to-transparent rounded-xl group duration-400 hover:scale-104 hover:from-white/30 hover:via-white/4 hover:to-transparent motion-preset-focus"
+                style={{ animationDelay: `${key * 100}ms` }}
               >
                 {/* border-1 border-zinc-700 rounded-xl */}
                 <div className="pb-4 bg-gradient-to-br from-black/75 via-black/60 to-black/40 backdrop-blur-lg rounded-xl">

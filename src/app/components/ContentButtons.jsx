@@ -54,12 +54,11 @@ export default function ContentButtons() {
           ({ key, title, subtitle, icon1: Icon1, icon2: Icon2, href }) => (
             <div
               key={key}
-              className="p-[1px] bg-gradient-to-br from-white/20 via-white/10 to-transparent rounded-lg group duration-400 hover:scale-104 hover:from-white/30 hover:via-white/10 hover:to-transparent"
+              className="p-[1px] bg-gradient-to-br from-white/20 via-white/2 to-transparent rounded-lg group duration-400 hover:scale-104 hover:from-white/30 hover:via-white/4 hover:to-transparent motion-preset-rebound-up"
+              style={{ animationDelay: `${key * 150}ms` }}
             >
               <a
                 href={href}
-                target="_blank"
-                rel="noopener noreferrer"
                 className="flex justify-between items-center px-4 py-2 bg-gradient-to-br from-black/75 via-black/60 to-black/40 backdrop-blur-lg rounded-lg"
               >
                 <div className="flex flex-row gap-4">

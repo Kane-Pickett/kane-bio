@@ -36,7 +36,8 @@ export default function SocialLinks() {
             href={href}
             target="_blank"
             rel="noopener noreferrer"
-            className="p-3 rounded-full border-1 border-zinc-700 group hover:scale-112 hover:border-zinc-400 duration-400"
+            className="p-3 rounded-full border-1 border-zinc-700 group hover:scale-112 hover:border-zinc-400 duration-400 motion-preset-focus motion-duration-800"
+            style={{ animationDelay: `${key * 120}ms` }}
           >
             <Icon className="text-zinc-400 group-hover:text-zinc-200 duration-400" />
           </a>
