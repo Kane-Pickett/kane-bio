@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function ProfileSection() {
   return (
-    <section className="flex flex-col items-center mx-auto gap-6 mt-12">
+    <section className="flex flex-col items-center mx-auto gap-6 mt-12 z-20">
       <div>
         <Image
           src="/images/profilePicture.jpg"

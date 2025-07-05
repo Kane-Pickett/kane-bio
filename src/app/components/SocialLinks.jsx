@@ -8,7 +8,7 @@ import {
 
 export default function SocialLinks() {
   return (
-    <section className="mx-auto">
+    <section className="mx-auto z-20">
       <div className="flex flex-row gap-6 items-center justify-between">
         <a
           href=""
@@ -22,15 +22,12 @@ export default function SocialLinks() {
         <div className="p-3 rounded-full border-1 border-zinc-700">
           <LuLinkedin />
         </div>
-
         <div className="p-3 rounded-full border-1 border-zinc-700">
           <LuInstagram />
         </div>
-
         <div className="p-3 rounded-full border-1 border-zinc-700">
           <LuYoutube />
         </div>
-
         <div className="p-3 rounded-full border-1 border-zinc-700">
           <LuMail />
         </div>
