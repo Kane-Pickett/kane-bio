@@ -1,4 +1,5 @@
 import { LuX, LuLink } from "react-icons/lu";
+import Footer from "../components/Footer";
 
 const Products = [
   {
@@ -53,18 +54,19 @@ export default function Shop() {
     <main className="min-h-screen flex flex-col">
       <section className="flex-grow flex-col items-center justify-center">
         {/* title bar */}
-        <div className="sticky top-0 z-10 flex grid grid-cols-3 py-8 mb-8 border-b border-zinc-600 items-center text-center bg-black">
+
+        <div className="sticky top-0 z-10 flex grid grid-cols-3 py-8 mb-8 border-b border-zinc-600 items-center text-center bg-black rounded-lg">
           <div />
           <h1 className="text-3xl text-white">Shop</h1>
           <div className="flex justify-end pr-8">
-            <a href="/">
-              <LuX className="w-8 h-auto" />
+            <a className="p-4 bg-zinc-900/80 rounded-full" href="/">
+              <LuX className="w-6 h-auto" />
             </a>
           </div>
         </div>
 
         {/* store products */}
-        <div className="flex flex-col mx-auto gap-8 max-w-xl w-full px-4 mx-auto mb-24">
+        <div className="flex flex-col mx-auto gap-8 max-w-xl w-full px-4 mx-auto mb-12">
           {Products.map(
             ({ key, image, productName, description, price, href }) => (
               <div key={key} className="border-1 border-zinc-700 rounded-xl">
@@ -95,6 +97,7 @@ export default function Shop() {
           )}
         </div>
       </section>
+      <Footer />
     </main>
   );
 }
