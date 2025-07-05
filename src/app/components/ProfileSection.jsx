@@ -2,13 +2,13 @@ import Image from "next/image";
 
 export default function ProfileSection() {
   return (
-    <section className="flex flex-col items-center mx-auto gap-6 mt-12 z-20">
+    <section className="flex flex-col items-center mx-auto gap-6 mt-8 z-20">
       <div>
         <Image
           src="/images/profilePicture.jpg"
           alt="Kane Pickett"
-          width={200}
-          height={200}
+          width={160}
+          height={160}
           className="rounded-full border-1 border-zinc-700"
           priority
         />

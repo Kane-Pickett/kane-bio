@@ -1,6 +1,5 @@
-import { LuCodeXml, LuLink, LuScissors } from "react-icons/lu";
+import { LuCodeXml, LuLink, LuShoppingBag } from "react-icons/lu";
 import { GiSharpShuriken } from "react-icons/gi";
-import { SiCalendly, SiGooglemeet } from "react-icons/si";
 import { MdMovieEdit } from "react-icons/md";
 import { BsPersonVideo } from "react-icons/bs";
 
@@ -34,6 +33,14 @@ const Buttons = [
     title: "Book a Call",
     subtitle: "Free 15min video call for projects",
     icon1: BsPersonVideo,
+    icon2: LuLink,
+    href: ""
+  },
+  {
+    key: 5,
+    title: "Shop",
+    subtitle: "After effects templates and assets",
+    icon1: LuShoppingBag,
     icon2: LuLink,
     href: ""
   }
