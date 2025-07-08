@@ -4,8 +4,7 @@ import Footer from "../components/Footer";
 const Products = [
   {
     key: 1,
-    image:
-      "https://images.unsplash.com/photo-1558455546-6cc03e986b5d?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "/images/masterPack.jpg",
     productName: "UI Buttons Complete Bundle",
     description: "Full bundle of premiere mogrts + ae templates.",
     price: "$22",
@@ -13,8 +12,7 @@ const Products = [
   },
   {
     key: 2,
-    image:
-      "https://images.unsplash.com/photo-1558455546-6cc03e986b5d?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "/images/masterPack.jpg",
     productName: "UI Buttons MoGrt Edition",
     description: "Preanimated, east to use ui elements.",
     price: "$18",
@@ -22,8 +20,7 @@ const Products = [
   },
   {
     key: 3,
-    image:
-      "https://images.unsplash.com/photo-1558455546-6cc03e986b5d?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "/images/masterPack.jpg",
     productName: "UI Buttons Master Pack",
     description: "After fx preanimated, easy to use ui elements.",
     price: "$14",
@@ -31,8 +28,7 @@ const Products = [
   },
   {
     key: 4,
-    image:
-      "https://images.unsplash.com/photo-1558455546-6cc03e986b5d?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "/images/essentialsPack.jpg",
     productName: "UI Buttons Essentials Pack",
     description: "Essential ui buttons and switches.",
     price: "$9",
@@ -40,8 +36,7 @@ const Products = [
   },
   {
     key: 5,
-    image:
-      "https://images.unsplash.com/photo-1558455546-6cc03e986b5d?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "/images/textBox.jpg",
     productName: "UI TextBox Template",
     description: "Preanimated, easy to use textbox template.",
     price: "$9",
@@ -78,7 +73,7 @@ export default function Shop() {
                 <div className="pb-4 bg-gradient-to-br from-black/75 via-black/60 to-black/40 backdrop-blur-lg rounded-xl">
                   <img
                     src={image}
-                    className="w-full h-32 object-cover rounded-xl"
+                    className="w-full h-64 object-cover rounded-xl"
                   />
 
                   {/* text */}
