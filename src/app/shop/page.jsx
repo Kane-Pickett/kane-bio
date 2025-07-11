@@ -5,34 +5,34 @@ const Products = [
   {
     key: 1,
     image: "/images/masterPack.jpg",
-    productName: "UI Buttons Complete Bundle",
-    description: "Full bundle of premiere mogrts + ae templates.",
-    price: "$22",
-    href: "https://www.motionelements.com/after-effects-template-47072176-ui-buttons-complete-bundle-vol-1-master-pack-mogrt-edition"
-  },
-  {
-    key: 2,
-    image: "/images/masterPack.jpg",
-    productName: "UI Buttons MoGrt Edition",
-    description: "Preanimated, east to use ui elements.",
-    price: "$18",
-    href: "https://www.motionelements.com/motion-graphics-template-47072164-ui-buttons-mogrt-edition-vol-1-built-for-premiere-pro-ready-for-action"
-  },
-  {
-    key: 3,
-    image: "/images/masterPack.jpg",
     productName: "UI Buttons Master Pack",
     description: "After fx preanimated, easy to use ui elements.",
     price: "$14",
     href: "https://www.motionelements.com/after-effects-template-43591982-ui-buttons-master-pack-vol-1-ultimate-customization-full-control"
   },
   {
-    key: 4,
+    key: 2,
     image: "/images/essentialsPack.jpg",
     productName: "UI Buttons Essentials Pack",
     description: "Essential ui buttons and switches.",
     price: "$9",
     href: "https://www.motionelements.com/after-effects-template-43591372-ui-buttons-essentials-pack-vol-1-customizable-animated-ui-elements-for-after-effects"
+  },
+  {
+    key: 3,
+    image: "/images/mogrtEdition.jpg",
+    productName: "UI Buttons MoGrt Edition",
+    description: "Preanimated, easy to use ui elements.",
+    price: "$18",
+    href: "https://www.motionelements.com/motion-graphics-template-47072164-ui-buttons-mogrt-edition-vol-1-built-for-premiere-pro-ready-for-action"
+  },
+  {
+    key: 4,
+    image: "/images/masterPack.jpg",
+    productName: "UI Buttons Complete Bundle",
+    description: "Full bundle of premiere mogrts + ae templates.",
+    price: "$22",
+    href: "https://www.motionelements.com/after-effects-template-47072176-ui-buttons-complete-bundle-vol-1-master-pack-mogrt-edition"
   },
   {
     key: 5,
@@ -86,10 +86,12 @@ export default function Shop() {
                   </div>
 
                   {/* button */}
-                  <div className="flex flex-row gap-4 items-center text-center justify-center p-2 mx-4 mb-4 bg-zinc-900 rounded-lg">
-                    <p className="font-base text-sm">View Details</p>
-                    <LuLink className="w-4 h-auto text-zinc-700 group-hover:text-zinc-400 duration-400" />
-                  </div>
+                  <a href={href} target="_blank">
+                    <div className="flex flex-row gap-4 items-center text-center justify-center p-2 mx-4 mb-4 bg-zinc-900 rounded-lg">
+                      <p className="font-base text-sm">View Details</p>
+                      <LuLink className="w-4 h-auto text-zinc-700 group-hover:text-zinc-400 duration-400" />
+                    </div>
+                  </a>
                 </div>
               </div>
             )
