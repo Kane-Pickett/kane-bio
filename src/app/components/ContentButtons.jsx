@@ -2,6 +2,7 @@ import { LuCodeXml, LuLink, LuShoppingBag } from "react-icons/lu";
 import { GiSharpShuriken } from "react-icons/gi";
 import { MdMovieEdit } from "react-icons/md";
 import { BsPersonVideo } from "react-icons/bs";
+import { FaCircleNotch } from "react-icons/fa";
 
 const Buttons = [
   {
@@ -30,6 +31,14 @@ const Buttons = [
   },
   {
     key: 4,
+    title: "Minimal.",
+    subtitle: "Web design and business automation",
+    icon1: FaCircleNotch,
+    icon2: LuLink,
+    href: "https://www.getminimal.io/"
+  },
+  {
+    key: 5,
     title: "Book a Call",
     subtitle: "Free 15min video call for projects",
     icon1: BsPersonVideo,
@@ -37,7 +46,7 @@ const Buttons = [
     href: "https://calendly.com/kanepickett/15min"
   },
   {
-    key: 5,
+    key: 6,
     title: "Shop",
     subtitle: "After effects templates and assets",
     icon1: LuShoppingBag,
