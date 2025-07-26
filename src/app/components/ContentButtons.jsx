@@ -37,16 +37,16 @@ const Buttons = [
     icon2: LuLink,
     href: "https://www.getminimal.io/"
   },
+  // {
+  //   key: 5,
+  //   title: "Book a Call",
+  //   subtitle: "Free 15min video call for projects",
+  //   icon1: BsPersonVideo,
+  //   icon2: LuLink,
+  //   href: "https://calendly.com/kanepickett/15min"
+  // },
   {
     key: 5,
-    title: "Book a Call",
-    subtitle: "Free 15min video call for projects",
-    icon1: BsPersonVideo,
-    icon2: LuLink,
-    href: "https://calendly.com/kanepickett/15min"
-  },
-  {
-    key: 6,
     title: "Shop",
     subtitle: "After effects templates and assets",
     icon1: LuShoppingBag,
