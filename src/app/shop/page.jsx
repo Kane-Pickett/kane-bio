@@ -4,6 +4,14 @@ import Footer from "../components/Footer";
 const Products = [
   {
     key: 1,
+    image: "/images/bookmarks.jpg",
+    productName: "Bookmarks",
+    description: "Chrome extension - Minimalist bookmark manager.",
+    price: "Free",
+    href: "https://chromewebstore.google.com/detail/fdknanbfomlojcgiocaggkgmjdcfhjld?utm_source=item-share-cb"
+  },
+  {
+    key: 2,
     image: "/images/masterPack.jpg",
     productName: "UI Buttons Master Pack",
     description: "After fx preanimated, easy to use ui elements.",
@@ -11,7 +19,7 @@ const Products = [
     href: "https://www.motionelements.com/after-effects-template-43591982-ui-buttons-master-pack-vol-1-ultimate-customization-full-control"
   },
   {
-    key: 2,
+    key: 3,
     image: "/images/essentialsPack.jpg",
     productName: "UI Buttons Essentials Pack",
     description: "Essential ui buttons and switches.",
@@ -19,7 +27,7 @@ const Products = [
     href: "https://www.motionelements.com/after-effects-template-43591372-ui-buttons-essentials-pack-vol-1-customizable-animated-ui-elements-for-after-effects"
   },
   {
-    key: 3,
+    key: 4,
     image: "/images/mogrtEdition.jpg",
     productName: "UI Buttons MoGrt Edition",
     description: "Preanimated, easy to use ui elements.",
@@ -27,7 +35,7 @@ const Products = [
     href: "https://www.motionelements.com/motion-graphics-template-47072164-ui-buttons-mogrt-edition-vol-1-built-for-premiere-pro-ready-for-action"
   },
   {
-    key: 4,
+    key: 5,
     image: "/images/masterPack.jpg",
     productName: "UI Buttons Complete Bundle",
     description: "Full bundle of premiere mogrts + ae templates.",
@@ -35,7 +43,7 @@ const Products = [
     href: "https://www.motionelements.com/after-effects-template-47072176-ui-buttons-complete-bundle-vol-1-master-pack-mogrt-edition"
   },
   {
-    key: 5,
+    key: 6,
     image: "/images/textBox.jpg",
     productName: "UI TextBox Template",
     description: "Preanimated, easy to use textbox template.",
@@ -52,7 +60,7 @@ export default function Shop() {
 
         <div className="sticky top-0 z-10 flex grid grid-cols-3 py-8 mb-12 border-b border-zinc-600 items-center text-center bg-black rounded-lg">
           <div />
-          <h1 className="text-3xl text-white">Shop</h1>
+          <h1 className="text-3xl text-white">Shop & Tools</h1>
           <div className="flex justify-end pr-8">
             <a className="p-4 bg-zinc-900/80 rounded-full" href="/">
               <LuX className="w-6 h-auto" />

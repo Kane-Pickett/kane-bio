@@ -47,8 +47,8 @@ const Buttons = [
   // },
   {
     key: 5,
-    title: "Shop",
-    subtitle: "After effects templates and assets",
+    title: "Shop & Tools",
+    subtitle: "AFX templates & everyday tools",
     icon1: LuShoppingBag,
     icon2: LuLink,
     href: "../shop"
