@@ -12,7 +12,7 @@ const Products = [
   },
   {
     key: 2,
-    image: "/images/minimalTab.png",
+    image: "/images/minimalTab.jpg",
     productName: "Minimal Tab",
     description: "Chrome extension - Minimalist new tab screen.",
     price: "Free",
