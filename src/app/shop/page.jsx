@@ -12,6 +12,14 @@ const Products = [
   },
   {
     key: 2,
+    image: "/images/minimalTab.png",
+    productName: "Minimal Tab",
+    description: "Chrome extension - Minimalist new tab screen.",
+    price: "Free",
+    href: "https://chromewebstore.google.com/detail/minimal-tab/kmfnhpeaddagpdlaphfibfienbabeaho?authuser=2&hl=en"
+  },
+  {
+    key: 3,
     image: "/images/masterPack.jpg",
     productName: "UI Buttons Master Pack",
     description: "After fx preanimated, easy to use ui elements.",
@@ -19,7 +27,7 @@ const Products = [
     href: "https://www.motionelements.com/after-effects-template-43591982-ui-buttons-master-pack-vol-1-ultimate-customization-full-control"
   },
   {
-    key: 3,
+    key: 4,
     image: "/images/essentialsPack.jpg",
     productName: "UI Buttons Essentials Pack",
     description: "Essential ui buttons and switches.",
@@ -27,7 +35,7 @@ const Products = [
     href: "https://www.motionelements.com/after-effects-template-43591372-ui-buttons-essentials-pack-vol-1-customizable-animated-ui-elements-for-after-effects"
   },
   {
-    key: 4,
+    key: 5,
     image: "/images/mogrtEdition.jpg",
     productName: "UI Buttons MoGrt Edition",
     description: "Preanimated, easy to use ui elements.",
@@ -35,7 +43,7 @@ const Products = [
     href: "https://www.motionelements.com/motion-graphics-template-47072164-ui-buttons-mogrt-edition-vol-1-built-for-premiere-pro-ready-for-action"
   },
   {
-    key: 5,
+    key: 6,
     image: "/images/masterPack.jpg",
     productName: "UI Buttons Complete Bundle",
     description: "Full bundle of premiere mogrts + ae templates.",
@@ -43,7 +51,7 @@ const Products = [
     href: "https://www.motionelements.com/after-effects-template-47072176-ui-buttons-complete-bundle-vol-1-master-pack-mogrt-edition"
   },
   {
-    key: 6,
+    key: 7,
     image: "/images/textBox.jpg",
     productName: "UI TextBox Template",
     description: "Preanimated, easy to use textbox template.",
