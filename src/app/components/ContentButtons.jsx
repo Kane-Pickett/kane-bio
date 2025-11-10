@@ -2,11 +2,35 @@ import { LuCodeXml, LuLink, LuShoppingBag } from "react-icons/lu";
 import { GiSharpShuriken } from "react-icons/gi";
 import { MdMovieEdit } from "react-icons/md";
 import { BsPersonVideo } from "react-icons/bs";
-import { FaCircleNotch } from "react-icons/fa";
+import { FaCircleNotch, FaCoffee } from "react-icons/fa";
 
 const Buttons = [
   {
     key: 1,
+    title: "Buy Me A Coffee.",
+    subtitle: "Any support is much appreciated!",
+    icon1: FaCoffee,
+    icon2: LuLink,
+    href: "https://buymeacoffee.com/kanepickett"
+  },
+  {
+    key: 2,
+    title: "Minimal.",
+    subtitle: "Web design and business automation",
+    icon1: FaCircleNotch,
+    icon2: LuLink,
+    href: "https://www.getminimal.io/"
+  },
+  {
+    key: 3,
+    title: "Ninjafy App",
+    subtitle: "Unleash your inner ninja and gamify your fitness",
+    icon1: GiSharpShuriken,
+    icon2: LuLink,
+    href: "https://www.getninjafy.com/"
+  },
+  {
+    key: 4,
     title: "Development",
     subtitle: "Software dev portfolio",
     icon1: LuCodeXml,
@@ -14,29 +38,14 @@ const Buttons = [
     href: "https://madebykane.dev"
   },
   {
-    key: 2,
-    title: "Ninjafy",
-    subtitle: "Unleash your inner ninja and level up",
-    icon1: GiSharpShuriken,
-    icon2: LuLink,
-    href: "https://www.getninjafy.com/"
-  },
-  {
-    key: 3,
-    title: "FlowBerri",
-    subtitle: "Content creation portfolio",
+    key: 5,
+    title: "FlowBerri ",
+    subtitle: "Content creation services",
     icon1: MdMovieEdit,
     icon2: LuLink,
     href: "https://flowberri.com"
   },
-  {
-    key: 4,
-    title: "Minimal.",
-    subtitle: "Web design and business automation",
-    icon1: FaCircleNotch,
-    icon2: LuLink,
-    href: "https://www.getminimal.io/"
-  },
+
   // {
   //   key: 5,
   //   title: "Book a Call",
@@ -46,9 +55,9 @@ const Buttons = [
   //   href: "https://calendly.com/kanepickett/15min"
   // },
   {
-    key: 5,
-    title: "Shop & Free Tools",
-    subtitle: "AFX templates & free everyday tools",
+    key: 6,
+    title: "Free Tools & Shop",
+    subtitle: "AFX templates and free everyday tools.",
     icon1: LuShoppingBag,
     icon2: LuLink,
     href: "../shop"
