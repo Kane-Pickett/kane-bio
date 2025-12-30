@@ -21,7 +21,7 @@ export default function ProfileSection() {
           Software Dev & Content Creator
         </h2>
         <h3 className="text-zinc-600 font-light text-base motion-preset-rebound-up motion-delay-100">
-          Currently building Ninjafy
+          Currently building Logit!
         </h3>
       </div>
     </section>

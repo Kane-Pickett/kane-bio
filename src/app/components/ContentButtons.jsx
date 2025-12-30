@@ -1,13 +1,13 @@
 import { LuCodeXml, LuLink, LuShoppingBag } from "react-icons/lu";
 import { GiSharpShuriken } from "react-icons/gi";
 import { MdMovieEdit } from "react-icons/md";
-import { BsPersonVideo } from "react-icons/bs";
 import { FaCircleNotch, FaCoffee } from "react-icons/fa";
+import { SiLogstash } from "react-icons/si";
 
 const Buttons = [
   {
     key: 1,
-    title: "Buy Me A Coffee.",
+    title: "Buy Me Coffee",
     subtitle: "Any support is much appreciated!",
     icon1: FaCoffee,
     icon2: LuLink,
@@ -23,12 +23,20 @@ const Buttons = [
   },
   {
     key: 3,
-    title: "Ninjafy App",
-    subtitle: "Unleash your inner ninja and gamify your fitness",
-    icon1: GiSharpShuriken,
+    title: "Logit",
+    subtitle: "Fundraising sales and tracking app",
+    icon1: SiLogstash,
     icon2: LuLink,
-    href: "https://www.getninjafy.com/"
+    href: "https://www.uselogit.com/"
   },
+  // {
+  //   key: 3,
+  //   title: "Ninjafy App",
+  //   subtitle: "Unleash your inner ninja and gamify your fitness",
+  //   icon1: GiSharpShuriken,
+  //   icon2: LuLink,
+  //   href: "https://www.getninjafy.com/"
+  // },
   {
     key: 4,
     title: "Development",
@@ -45,15 +53,6 @@ const Buttons = [
     icon2: LuLink,
     href: "https://flowberri.com"
   },
-
-  // {
-  //   key: 5,
-  //   title: "Book a Call",
-  //   subtitle: "Free 15min video call for projects",
-  //   icon1: BsPersonVideo,
-  //   icon2: LuLink,
-  //   href: "https://calendly.com/kanepickett/15min"
-  // },
   {
     key: 6,
     title: "Free Tools & Shop",
