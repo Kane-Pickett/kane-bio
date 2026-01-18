@@ -31,40 +31,40 @@ const Products = [
     image: "/images/masterPack.jpg",
     productName: "UI Buttons Master Pack",
     description: "After fx preanimated, easy to use ui elements.",
-    price: "$14",
-    href: "https://www.motionelements.com/after-effects-template-43591982-ui-buttons-master-pack-vol-1-ultimate-customization-full-control"
+    price: "$24",
+    href: "https://buymeacoffee.com/kanepickett/e/500166"
   },
   {
     key: 5,
     image: "/images/essentialsPack.jpg",
     productName: "UI Buttons Essentials Pack",
     description: "Essential ui buttons and switches.",
-    price: "$9",
-    href: "https://www.motionelements.com/after-effects-template-43591372-ui-buttons-essentials-pack-vol-1-customizable-animated-ui-elements-for-after-effects"
+    price: "$15",
+    href: "https://buymeacoffee.com/kanepickett/e/500170"
   },
   {
     key: 6,
     image: "/images/mogrtEdition.jpg",
     productName: "UI Buttons MoGrt Edition",
     description: "Preanimated, easy to use ui elements.",
-    price: "$18",
-    href: "https://www.motionelements.com/motion-graphics-template-47072164-ui-buttons-mogrt-edition-vol-1-built-for-premiere-pro-ready-for-action"
+    price: "$27",
+    href: "https://buymeacoffee.com/kanepickett/e/500167"
   },
   {
     key: 7,
     image: "/images/masterPack.jpg",
     productName: "UI Buttons Complete Bundle",
     description: "Full bundle of premiere mogrts + ae templates.",
-    price: "$22",
-    href: "https://www.motionelements.com/after-effects-template-47072176-ui-buttons-complete-bundle-vol-1-master-pack-mogrt-edition"
+    price: "$38",
+    href: "https://buymeacoffee.com/kanepickett/e/500169"
   },
   {
     key: 8,
     image: "/images/textBox.jpg",
     productName: "UI TextBox Template",
     description: "Preanimated, easy to use textbox template.",
-    price: "$9",
-    href: "https://www.motionelements.com/after-effects-template-38342725-ui-textbox-template-ae-template"
+    price: "$10",
+    href: "https://buymeacoffee.com/kanepickett/e/500171"
   }
 ];
 
