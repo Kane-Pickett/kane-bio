@@ -18,7 +18,7 @@ export default function ProfileSection() {
           Kane
         </h1>
         <h2 className="text-zinc-200 font-extralight text-lg motion-preset-rebound-up motion-delay-50">
-          Software Dev & Content Creator
+          AI Automation & Software Dev
         </h2>
         <h3 className="text-zinc-600 font-light text-base motion-preset-rebound-up motion-delay-100">
           Currently building Logit!
